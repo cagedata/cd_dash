@@ -1,4 +1,4 @@
-# CdDash
+# CDDash
 
 To start your Dashboard:
 
