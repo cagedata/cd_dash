@@ -1,0 +1,36 @@
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-widget="Forecast"
+        data-source="forecast"
+        data-title="Forecast"
+        data-moreinfo="Powered by Forecast.io"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <!-- Who's on call -->
+    </li>
+    <li data-row="1" data-col="3" data-sizex="2" data-sizey="1">
+      <!-- Who's Current incidents -->
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <!-- Level 1 Tickets -->
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <!-- Level 2 Tickets -->
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <!-- Level 3 Tickets -->
+    </li>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <!-- Other Tickets -->
+    </li>
+
+    <li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
+      <!-- Latest tweets -->
+    </li>
+    <li data-row="3" data-col="2" data-sizex="2" data-sizey="1">
+      <!-- Rosie Bot Says... -->
+    </li>
+</ul>
+</div>

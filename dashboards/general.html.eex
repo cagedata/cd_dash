@@ -1,0 +1,64 @@
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-widget="Forecast"
+        data-source="forecast"
+        data-title="Forecast"
+        data-moreinfo="Powered by Forecast.io"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <!-- Who's on call -->
+      <div class="widget-victorops"
+        data-widget="Text"
+        data-source="on_call"
+        data-title="Who's on call"
+        data-text="Coming soon..."></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="2" data-sizey="1">
+      <!-- Open VO Incidents -->
+      <div class="widget-victorops"
+        data-widget="List"
+        data-source="incidents"
+        data-unordered="yes"
+        data-label-length="8"
+        data-value-length="40"
+        data-title="Current incidents"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <!-- Level 1 Tickets -->
+      <div class="widget-jira"
+        data-widget="Number"
+        data-source="level_1_count"
+        data-title="Level 1 Tickets">
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <!-- Level 2 Tickets -->
+      <div class="widget-jira"
+        data-widget="Number"
+        data-source="level_2_count"
+        data-title="Level 2 Tickets">
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <!-- Level 3 Tickets -->
+      <div class="widget-jira"
+        data-widget="Number"
+        data-source="level_3_count"
+        data-title="Level 3 Tickets">
+    </li>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <!-- Other Tickets -->
+      <div class="widget-jira"
+        data-widget="Number"
+        data-source="waiting_for_others_count"
+        data-title="Tickets Waiting on Others">
+    </li>
+
+    <!--<li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
+      <!- Latest tweets ->
+    </li>
+    <li data-row="3" data-col="3" data-sizex="2" data-sizey="1">
+      <!- Rosie Bot Says... ->
+    </li>-->
+</ul>
+</div>

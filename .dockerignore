@@ -1,0 +1,8 @@
+node_modules
+deps
+_build
+
+config/config.secrets.exs
+.env
+README.md
+Procfile
