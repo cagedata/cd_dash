@@ -45,7 +45,8 @@ config :logger, :console,
 
 config :cd_dash,
   forecast_location: "41.448170,-72.804079",
-  victorops_team: "support-team"
+  victorops_team: "support-team",
+  twitter_search: "#devops"
 
 try do
   import_config "config.secret.exs"

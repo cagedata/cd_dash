@@ -13,6 +13,7 @@ export class Comment extends Widget {
         </h3>
         <p className="comment">{this.state.text}</p>
         <p className="more-info">{this.props.moreinfo}</p>
+        <p className="updated-at">{this.updatedAt(this.state.updated_at)}</p>
       </div>
     )
   }

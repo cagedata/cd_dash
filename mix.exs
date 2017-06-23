@@ -14,7 +14,7 @@ defmodule CdDash.Mixfile do
   #
   # Type `mix help compile.app` for more information.
   def application do
-    [applications: [:logger, :kitto, :httpoison]]
+    [applications: [:logger, :kitto, :httpoison, :extwitter]]
   end
 
   # Specifies your project dependencies.
@@ -25,7 +25,8 @@ defmodule CdDash.Mixfile do
       {:kitto, github: "kittoframework/kitto", branch: "master"},
       {:distillery, "1.3.1"},
       {:poison, "~> 3.1.0", override: true},
-      {:httpoison, "~> 0.11.1"}
+      {:httpoison, "~> 0.11.1"},
+      {:extwitter, "~> 0.8.4"}
    ]
   end
 end

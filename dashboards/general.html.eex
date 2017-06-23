@@ -53,12 +53,5 @@
         data-source="waiting_for_others_count"
         data-title="Tickets Waiting on Others">
     </li>
-
-    <!--<li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
-      <!- Latest tweets ->
-    </li>
-    <li data-row="3" data-col="3" data-sizex="2" data-sizey="1">
-      <!- Rosie Bot Says... ->
-    </li>-->
 </ul>
 </div>
